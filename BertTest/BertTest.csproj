@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Model\bertsquad-10.onnx" />
+    <None Remove="Assets\Model\bertsquad-10.tar.gz" />
+    <None Remove="Assets\Model\bertsquad-12-int8.onnx" />
+    <None Remove="Assets\Model\bertsquad-12-int8.tar.gz" />
+    <None Remove="Assets\Model\bertsquad-12.onnx" />
+    <None Remove="Assets\Model\bertsquad-12.tar.gz" />
+    <None Remove="Assets\Model\bertsquad-8.onnx" />
+    <None Remove="Assets\Model\bertsquad-8.tar.gz" />
+    <None Remove="Assets\Vocabulary\vocab.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Model\bertsquad-10.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Model\bertsquad-10.tar.gz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Model\bertsquad-12-int8.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Model\bertsquad-12-int8.tar.gz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Model\bertsquad-12.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Model\bertsquad-12.tar.gz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Model\bertsquad-8.onnx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Model\bertsquad-8.tar.gz">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Vocabulary\vocab.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="2.0.1" />
+    <PackageReference Include="Microsoft.ML.OnnxRuntime" Version="1.14.1" />
+    <PackageReference Include="Microsoft.ML.OnnxTransformer" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
