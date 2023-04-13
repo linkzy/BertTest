@@ -26,24 +26,6 @@
     <Content Include="Assets\Model\bertsquad-10.tar.gz">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Assets\Model\bertsquad-12-int8.onnx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Model\bertsquad-12-int8.tar.gz">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Model\bertsquad-12.onnx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Model\bertsquad-12.tar.gz">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Model\bertsquad-8.onnx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\Model\bertsquad-8.tar.gz">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Assets\Vocabulary\vocab.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
