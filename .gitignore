@@ -365,3 +365,4 @@ FodyWeavers.xsd
 /BertTest/Assets/Model/bertsquad-10.tar.gz
 /BertTest/Assets/Model/bertsquad-10.onnx
 /BertTest/Assets/Model/bertsquad-10.tar.gz
+/BertTest/Assets/Model/bertsquad-12-int8.onnx
